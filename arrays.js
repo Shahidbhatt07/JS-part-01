@@ -43,5 +43,7 @@ console.log(fruits);
 
 //shift
 //it removes elemnt at beginning
+fruits.shift();
+console.log(fruits);
 
 
