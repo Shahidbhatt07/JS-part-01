@@ -52,7 +52,7 @@ console.log(fruits);
 let array1 = ["item1", "item2"];
 
 //using slice method
-let array2 =  array1.slice(0);
+let array2 =  array1.slice(0); 
 console.log(array2);
 
 //using concatination
