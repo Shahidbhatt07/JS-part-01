@@ -66,3 +66,7 @@ const isOdd = function (number) {
 }
 console.log(isOdd(10)); //false
 
+const myBirthday = function() {
+  console.log("happy birthday shahid");
+}
+myBirthday(); //happy birthday shahid
