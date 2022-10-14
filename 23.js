@@ -1,4 +1,4 @@
-//reduce method
+//4.reduce method
 const numbers = [1, 4, 7, 9, 2, 5];
 // aim: sum of all the numbers in an array
 const sum = numbers.reduce((accumulator, currentValue) => {

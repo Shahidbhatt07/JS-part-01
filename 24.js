@@ -1,4 +1,4 @@
-//sort method --it arranges the items on the basis of your requirements
+//5.sort method --it arranges the items on the basis of your requirements
 //in sort methods, arrays are mutable
 
    //ASCII Table
