@@ -46,12 +46,13 @@ const products = [
     { productId: 5, productName: "iphone14", price: 202000 },
     { productId: 6, productName: "hp laptop", price: 17000 }
 ]
-const LowToHigh = products.sort((a, b) => {
+const LowToHigh = products.slice(0).sort((a, b) => { //why i use slice? in sort arrays are mutable, so if i dont want to change this original array, i have to clone it, so i used slice method to save the changes in new array.
     return a.price - b.price;
 })
 console.log(LowToHigh);
 
-const HighToLow = products.sort((a, b) => {
+const HighToLow = products.slice(0).sort((a, b) => {
     return b.price - a.price;
 })
 console.log(HighToLow);
+console.log(products);
