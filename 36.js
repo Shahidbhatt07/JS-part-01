@@ -20,18 +20,18 @@ user1.about(user1); //undefined, undefined
 
 //-----------------------------------------------------------//
 //for about method, both both syntaxes are same
-const user1 = {
-    firstName: "shahid",
-    age: 22,
-    about: function (){
-        console.log(`${this.firstName}, ${this.age}`);
-    }    
-}
+// const user1 = {
+//     firstName: "shahid",
+//     age: 22,
+//     about: function (){
+//         console.log(`${this.firstName}, ${this.age}`);
+//     }    
+// }
 
-const user1 = {
-    firstName: "shahid",
-    age: 22,
-    about(){
-        console.log(`${this.firstName}, ${this.age}`);
-    }    
-}
+// const user1 = {
+//     firstName: "shahid",
+//     age: 22,
+//     about(){
+//         console.log(`${this.firstName}, ${this.age}`);
+//     }    
+// }
